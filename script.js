@@ -1,4 +1,4 @@
-<script>
+
     var qData = [
         { q: "ডোলেরায় SEZ অনুমোদন কোন কোম্পানির জন্য দেওয়া হয়েছে?", a: "Tata Semiconductor Manufacturing", opts: ["Infosys", "Tata Motors", "Tata Semiconductor Manufacturing", "Wipro"] },
         { q: "Tata Semiconductor প্রকল্পের বিনিয়োগের পরিমাণ কত?", a: "₹91,000 কোটি", opts: ["₹50,000 কোটি", "₹75,000 কোটি", "₹91,000 কোটি", "₹1,00,000 কোটি"] },
@@ -76,4 +76,3 @@
         document.getElementById("result-area").style.display = "block";
         document.getElementById("res-score").innerText = userScore + " / 20";
     }
-</script>
